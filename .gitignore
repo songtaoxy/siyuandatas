@@ -67,5 +67,8 @@ buildNumber.properties
 
 
 # system
-.DS_Strore
+.DS_Store
 *.DS_Strore
+TSPR/.DS_Store
+TSPR/.siyuan/.DS_Store
+TSPR/tsprList/.DS_Store
