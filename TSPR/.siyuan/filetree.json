@@ -1,5 +1,33 @@
 {
   "name": "",
   "path": "/",
-  "isDir": true
+  "isDir": true,
+  "children": [
+    {
+      "name": "cka",
+      "path": "/cka/",
+      "isDir": true
+    },
+    {
+      "name": "yy-yonyou",
+      "path": "/yy-yonyou/",
+      "isDir": true
+    },
+    {
+      "name": "tools",
+      "path": "/tools/",
+      "isDir": true,
+      "children": [
+        {
+          "name": "sy-思源笔记.md",
+          "path": "/tools/sy-思源笔记.md"
+        }
+      ]
+    },
+    {
+      "name": "tsprlist",
+      "path": "/tsprlist/",
+      "isDir": true
+    }
+  ]
 }
