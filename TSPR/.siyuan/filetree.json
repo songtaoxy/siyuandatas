@@ -6,12 +6,24 @@
     {
       "name": "cka",
       "path": "/cka/",
-      "isDir": true
+      "isDir": true,
+      "children": [
+        {
+          "name": "ckaIndex.md",
+          "path": "/cka/ckaIndex.md"
+        }
+      ]
     },
     {
       "name": "yy-yonyou",
       "path": "/yy-yonyou/",
-      "isDir": true
+      "isDir": true,
+      "children": [
+        {
+          "name": "yytask.md",
+          "path": "/yy-yonyou/yytask.md"
+        }
+      ]
     },
     {
       "name": "tools",
@@ -27,7 +39,13 @@
     {
       "name": "tsprlist",
       "path": "/tsprlist/",
-      "isDir": true
+      "isDir": true,
+      "children": [
+        {
+          "name": "tspr-自信.md",
+          "path": "/tsprlist/tspr-自信.md"
+        }
+      ]
     }
   ]
 }
