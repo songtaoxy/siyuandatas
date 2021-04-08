@@ -1,7 +1,7 @@
-# Shortcuts
-{: id="20210408024548-kui1zai" updated="20210408020715"}
+# Shortcuts, Customize
+{: id="20210408024548-kui1zai" updated="20210408143159"}
 
-​#shortcuts#
+#shortcuts#
 {: id="20210408024548-1u63amg" updated="20210408020724"}
 
 - {: id="20210408024548-dutdvm0"}new noteboo
@@ -9,6 +9,9 @@
 - {: id="20210408024548-v7i6zgw"}move (file)
   {: id="20210408024548-jh5e1pv" updated="20210408092328"}
 {: id="20210408024548-01eun7y" updated="20210408020742"}
+
+# Shortcuts, Frequently
+{: id="20210408143200-7yxv46q" updated="20210408143252"}
 
 # 如何搜索文件夹?
 {: id="20210408024548-yfj80do" updated="20210408023043"}

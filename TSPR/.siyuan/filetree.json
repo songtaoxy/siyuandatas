@@ -11,6 +11,16 @@
         {
           "name": "ckaIndex.md",
           "path": "/cka/ckaIndex.md"
+        },
+        {
+          "name": "Java",
+          "path": "/cka/Java/",
+          "isDir": true
+        },
+        {
+          "name": "Spring",
+          "path": "/cka/Spring/",
+          "isDir": true
         }
       ]
     },
@@ -48,6 +58,10 @@
               "path": "/tools/spring/Spring-注解-@Qualifier.md"
             }
           ]
+        },
+        {
+          "name": "Java-可变参数.md",
+          "path": "/tools/Java-可变参数.md"
         }
       ]
     },
