@@ -33,6 +33,21 @@
         {
           "name": "sy-思源笔记.md",
           "path": "/tools/sy-思源笔记.md"
+        },
+        {
+          "name": "java-optional.md",
+          "path": "/tools/java-optional.md"
+        },
+        {
+          "name": "spring",
+          "path": "/tools/spring/",
+          "isDir": true,
+          "children": [
+            {
+              "name": "Spring-注解-@Qualifier.md",
+              "path": "/tools/spring/Spring-注解-@Qualifier.md"
+            }
+          ]
         }
       ]
     },
@@ -44,6 +59,17 @@
         {
           "name": "tspr-自信.md",
           "path": "/tsprlist/tspr-自信.md"
+        }
+      ]
+    },
+    {
+      "name": "todo",
+      "path": "/todo/",
+      "isDir": true,
+      "children": [
+        {
+          "name": "1.md",
+          "path": "/TODO/1.md"
         }
       ]
     }
