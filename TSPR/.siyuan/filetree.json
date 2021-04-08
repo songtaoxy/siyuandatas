@@ -15,7 +15,17 @@
         {
           "name": "Java",
           "path": "/cka/Java/",
-          "isDir": true
+          "isDir": true,
+          "children": [
+            {
+              "name": "java-optional-orElse-orElseGet.md",
+              "path": "/cka/Java/java-optional-orElse-orElseGet.md"
+            },
+            {
+              "name": "Java-lambda表达式.md",
+              "path": "/cka/Java/Java-lambda表达式.md"
+            }
+          ]
         },
         {
           "name": "Spring",
