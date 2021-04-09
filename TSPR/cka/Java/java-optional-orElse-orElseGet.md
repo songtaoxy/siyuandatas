@@ -9,13 +9,13 @@
 orElse: optional有值, 或没有值, 都会执行
 {: id="20210408150111-m7nvbft" updated="20210408150141"}
 
-orElseGet: optional有值, 不执行; optional为空时，才执行.
-{: id="20210408150154-km56t8g" updated="20210408150248"}
+orElseGet: optional有值, 不执行; optional为空时，才执行. #Java# 
+{: id="20210408150154-km56t8g" updated="20210409152617"}
 
 {: id="20210408151131-q0kyb2f"}
 
-# 基本使用: orElse, orElseGet
-{: id="20210408151131-0kgybeq" updated="20210408151256"}
+# 基本使用: orElse, orElseGet 
+{: id="20210408151131-0kgybeq" updated="20210409160236"}
 
 两者之间的区别细微, 但是却在某些场景下显的很重要.
 首先, 这是两个在 java.util.Optional 类中的方法: 源码非常简单,

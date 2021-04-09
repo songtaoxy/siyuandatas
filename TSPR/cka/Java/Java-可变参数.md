@@ -4,6 +4,8 @@
 在 Java 5 中提供了变长参数，允许在调用方法时传入不定长度的参数。变长参数是 Java 的一个语法糖，本质上还是基于数组的实现：
 {: id="20210408143813-t8gr2c2"}
 
+{: id="20210409160452-1e836eg"}
+
 ```
 void foo(String... args);
 void foo(String[] args);
@@ -346,8 +348,12 @@ method.invoke(null, new Object[]{varArgs});//Object[]长度为1，正确。上�
 {: id="20210408143813-vcxie1d"}
 
 [Stack Overflow](http://stackoverflow.com/questions/766559/when-do-you-use-varargs-in-java) 上有个关于变长参数使用的问题。简单地说，
-在不确定方法需要处理的对象的数量时可以使用可变长参数，会使得方法调用更简单，无需手动创建数组 **new T[]{…}**
-{: id="20210408143813-u8tgwik"}
+在不确定方法需要处理的对象的数量时可以使用可变长参数，会使得方法调用更简单，无需手动创建数组 **new T[]{…}
+{: id="20210408143813-u8tgwik" updated="20210409162341"}
+
+{: id="20210409162342-djs1b34"}
+
+{: id="20210409162342-vm3gkeu" updated="20210409162342"}
 
 
 {: id="20210408143806-bb9z0iy" type="doc"}
