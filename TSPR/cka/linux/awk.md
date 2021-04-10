@@ -37,6 +37,8 @@ print “” 打印组合
 
 ```shell
 $ll|awk -F " " '{print $NF}'
+
+$ll|awk -F " " '{print $NF}'>~/.downloads/x.md
 ```
 {: id="20210409021127-xd8zm3i" updated="20210409021141"}
 
@@ -85,10 +87,6 @@ cat  test | awk -F',' '{print $1,$2}
 awk -F',' '{sum += $NF};END{print sum}'
 ```
 {: id="20210409020201-kdwy3lj" updated="20210409020235"}
-
-{: id="20210409020201-wq00ubr"}
-
-{: id="20210409015948-ernd5ep"}
 
 # AWK – 打印最后一列以及空值
 {: id="20210409015949-x9hio0g" updated="20210409020021"}

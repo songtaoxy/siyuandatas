@@ -1,14 +1,14 @@
 # yytask-20210409-jira-物化
-{: id="20210409113159-joa8np6" updated="20210409113252" fold="1"}
+{: id="20210409113159-joa8np6" fold="1" updated="20210409113252"}
 
 # Tags
 {: id="20210409113205-ctynu0b" updated="20210409113209"}
 
 #yonyon#
-{: id="20210409113210-3bp6vg6" updated="20210409113218" fold="1"}
+{: id="20210409113210-3bp6vg6" fold="1" updated="20210409113218"}
 
 #yonyontask#
-{: id="20210409113218-moi5zuo" updated="20210409113232" fold="1"}
+{: id="20210409113218-moi5zuo" fold="1" updated="20210409113232"}
 
 #yytask#
 {: id="20210409113233-p0wa6zc" updated="20210409113239"}
@@ -21,6 +21,21 @@
 - {: id="20210409113043-kd3j2gc"}物化
   {: id="20210409113043-qnayyzo" updated="20210409113045"}
 {: id="20210409113033-eb4mr5c" updated="20210409113037"}
+
+## YonQL, Case
+{: id="20210409173405-nepbrbb" updated="20210409173422"}
+
+```sql
+select bizName,orderId,receiveContacter from voucher.delivery.DeliveryVoucher;
+
+select productName,deliveryId,outDate from voucher.delivery.DeliverySalesOutDetail;
+
+select corderno,producttypes,salesvolume,tax_includedamount from voucher.order.saledetailZoties where  financialyear = 2020;
+
+select name,expenseitemtype,enabled from bd.expenseitem.ExpenseItem;
+
+```
+{: id="20210409173422-ctrhwxa" updated="20210409173424"}
 
 # 基本架构
 {: id="20210409100010-tvygukr" updated="20210409113019"}
@@ -60,9 +75,7 @@
 {: id="20210409095802-iekaifn" updated="20210409095915"}
 
 ### 配置等
-{: id="20210409111918-6gpeyb1" updated="20210409111942"}
-
-{: id="20210409111943-02v8dkq"}
+{: id="20210409111918-6gpeyb1" updated="20210409173515"}
 
 ```java
 

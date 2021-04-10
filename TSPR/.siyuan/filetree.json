@@ -80,8 +80,36 @@
             {
               "name": "Linux-tar.md",
               "path": "/cka/linux/Linux-tar.md"
+            },
+            {
+              "name": "Linux-echo.md",
+              "path": "/cka/linux/Linux-echo.md"
+            },
+            {
+              "name": "linux-sed.md",
+              "path": "/cka/linux/linux-sed.md"
+            },
+            {
+              "name": "linux- TO.md",
+              "path": "/cka/linux/linux- TO.md"
+            },
+            {
+              "name": "linux-tr.md",
+              "path": "/cka/linux/linux-tr.md"
+            },
+            {
+              "name": "linux-df-du.md",
+              "path": "/cka/linux/linux-df-du.md"
             }
           ]
+        },
+        {
+          "name": "architecture-架构.md",
+          "path": "/cka/architecture-架构.md"
+        },
+        {
+          "name": "tspr-cka知识架构.md",
+          "path": "/cka/tspr-cka知识架构.md"
         }
       ]
     },
@@ -93,6 +121,10 @@
         {
           "name": "yytask-20210409-jira-物化.md",
           "path": "/yy-yonyou/yytask-20210409-jira-物化.md"
+        },
+        {
+          "name": "yytask-转正-20200420.md",
+          "path": "/yy-yonyou/yytask-转正-20200420.md"
         }
       ]
     },
@@ -134,6 +166,10 @@
         {
           "name": "tspr-自信.md",
           "path": "/tsprlist/tspr-自信.md"
+        },
+        {
+          "name": "tspr-note taking.md",
+          "path": "/tsprlist/tspr-note taking.md"
         }
       ]
     },
@@ -175,6 +211,40 @@
         {
           "name": "Non-Linear Note Taking-非线性笔记.md",
           "path": "/tspr/Non-Linear Note Taking-非线性笔记.md"
+        }
+      ]
+    },
+    {
+      "name": "terms",
+      "path": "/terms/",
+      "isDir": true,
+      "children": [
+        {
+          "name": "Best Practice-最佳实践.md",
+          "path": "/terms/Best Practice-最佳实践.md"
+        },
+        {
+          "name": "further-进一步.md",
+          "path": "/terms/further-进一步.md"
+        },
+        {
+          "name": "motto-格言警句.md",
+          "path": "/terms/motto-格言警句.md"
+        },
+        {
+          "name": "front-end, back-end, 前端, 后端.md",
+          "path": "/terms/front-end, back-end, 前端, 后端.md"
+        }
+      ]
+    },
+    {
+      "name": "mottos",
+      "path": "/mottos/",
+      "isDir": true,
+      "children": [
+        {
+          "name": "无处安放的笔记.md",
+          "path": "/snippets/无处安放的笔记.md"
         }
       ]
     }

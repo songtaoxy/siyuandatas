@@ -87,7 +87,7 @@ siyuan target_path ::= /Users/songtao/iCloud/SiYuan_Data/backup-20210409/siyuan-
 {: id="20210409170742-5jel68p" updated="20210409170753"}
 
 tar默认为相对路径，使用绝对路径的话就回报这个错，可以使用-P参数（注意大写）解决这个问题. example in ((20210409004809-x1l48mr "{{.text}}"))
-{: id="20210409170033-fs6ip06" updated="20210409170742"}
+{: id="20210409170033-fs6ip06" updated="20210409191051"}
 
 ## 方案
 {: id="20210409170759-cgficxu" updated="20210409170809"}
@@ -119,7 +119,9 @@ siyuan target_path ::= /Users/songtao/iCloud/SiYuan_Data/backup-20210409/siyuan-
 ```
 {: id="20210409170917-a3cvwsw" updated="20210409171002"}
 
-{: id="20210409172759-b6jcjjn"}
+{: id="20210409191746-d5g3kdb" updated="20210409204322"}
+
+{: id="20210409191836-ad47vqh"}
 
 
 {: id="20210409165552-tjf4pvw" type="doc"}
