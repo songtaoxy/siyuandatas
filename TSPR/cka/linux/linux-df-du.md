@@ -4,6 +4,9 @@
 # df
 {: id="20210410020824-vvkl6j1" updated="20210410020828"}
 
+df -- display free disk ((20210410111150-a0uhgoe "{{.text}}"))
+{: id="20210410111101-6cag4zj" updated="20210410111214"}
+
 显示当前系统的空间使用情况
 {: id="20210410020907-baqh00c" updated="20210410020931"}
 
@@ -27,6 +30,9 @@ map auto_home     0Bi    0Bi    0Bi   100%       0          0  100%   /System/Vo
 # du
 {: id="20210410020850-txy7me4" updated="20210410020945"}
 
+du -- display disk  ((20210410111223-s8h8oet "{{.text}}")) statistics
+{: id="20210410111113-b55r6v9" updated="20210410111227"}
+
 ## 查看某个目录的大小
 {: id="20210410020945-upbiowx" updated="20210410021033"}
 
@@ -44,7 +50,6 @@ export size=`du -h -d 0 $SIYUAN_HOME`
 ```
 {: id="20210410021230-yipqbmn" updated="20210410021231"}
 
-   
 {: id="20210410021252-tm3uxsf"}
 
 

@@ -22,10 +22,6 @@
               "path": "/cka/Java/Java-lambda表达式.md"
             },
             {
-              "name": "temp.md",
-              "path": "/cka/Java/temp.md"
-            },
-            {
               "name": "Java-instance.md",
               "path": "/cka/Java/Java-instance.md"
             },
@@ -36,6 +32,10 @@
             {
               "name": "Java-类加载-过程.md",
               "path": "/cka/Java/Java-类加载-过程.md"
+            },
+            {
+              "name": "Java-字符串拼接-占位符-占位符风格.md",
+              "path": "/cka/Java/Java-字符串拼接-占位符-占位符风格.md"
             }
           ]
         },
@@ -66,7 +66,53 @@
         {
           "name": "jvm",
           "path": "/cka/jvm/",
-          "isDir": true
+          "isDir": true,
+          "children": [
+            {
+              "name": "JVM.md",
+              "path": "/cka/jvm/JVM.md"
+            },
+            {
+              "name": "java-classpath.md",
+              "path": "/cka/jvm/java-classpath.md"
+            },
+            {
+              "name": "maven.md",
+              "path": "/cka/jvm/maven.md"
+            },
+            {
+              "name": "idea-设置jvm参数.md",
+              "path": "/cka/jvm/idea-设置jvm参数.md"
+            },
+            {
+              "name": "tomcat.md",
+              "path": "/cka/jvm/tomcat.md"
+            },
+            {
+              "name": "idea.md",
+              "path": "/cka/jvm/idea.md"
+            },
+            {
+              "name": "idea-classpath过长如何处理.md",
+              "path": "/cka/jvm/idea-classpath过长如何处理.md"
+            },
+            {
+              "name": "Extension ClassLoader.md",
+              "path": "/cka/jvm/Extension ClassLoader.md"
+            },
+            {
+              "name": "获取Class实例的4种方式.md",
+              "path": "/cka/jvm/获取Class实例的4种方式.md"
+            },
+            {
+              "name": "java-spi.md",
+              "path": "/cka/jvm/java-spi.md"
+            },
+            {
+              "name": "java-jar-如何运行程序.md",
+              "path": "/cka/jvm/java-jar-如何运行程序.md"
+            }
+          ]
         },
         {
           "name": "linux",
@@ -100,6 +146,14 @@
             {
               "name": "linux-df-du.md",
               "path": "/cka/linux/linux-df-du.md"
+            },
+            {
+              "name": "space.md",
+              "path": "/cka/linux/space.md"
+            },
+            {
+              "name": "usage.md",
+              "path": "/cka/linux/usage.md"
             }
           ]
         },
@@ -110,6 +164,21 @@
         {
           "name": "tspr-cka知识架构.md",
           "path": "/cka/tspr-cka知识架构.md"
+        },
+        {
+          "name": "maven",
+          "path": "/cka/maven/",
+          "isDir": true,
+          "children": [
+            {
+              "name": "maven-跳过测试.md",
+              "path": "/cka/maven/maven-跳过测试.md"
+            }
+          ]
+        },
+        {
+          "name": "kafka.md",
+          "path": "/cka/kafka.md"
         }
       ]
     },
@@ -125,6 +194,15 @@
         {
           "name": "yytask-转正-20200420.md",
           "path": "/yy-yonyou/yytask-转正-20200420.md"
+        },
+        {
+          "name": "开发者中心-部署应用.md",
+          "path": "/yy-yonyou/开发者中心-部署应用.md"
+        },
+        {
+          "name": "物化",
+          "path": "/yy-yonyou/物化/",
+          "isDir": true
         }
       ]
     },
@@ -134,8 +212,8 @@
       "isDir": true,
       "children": [
         {
-          "name": "sy-思源笔记.md",
-          "path": "/tools/sy-思源笔记.md"
+          "name": "synote-siyuan.md",
+          "path": "/tools/synote-siyuan.md"
         },
         {
           "name": "java-optional.md",
@@ -155,6 +233,40 @@
         {
           "name": "Java-可变参数.md",
           "path": "/tools/Java-可变参数.md"
+        },
+        {
+          "name": "输入法.md",
+          "path": "/tools/输入法.md"
+        },
+        {
+          "name": "alfred.md",
+          "path": "/tools/alfred.md"
+        },
+        {
+          "name": "snippets.md",
+          "path": "/tools/snippets.md"
+        },
+        {
+          "name": "idea",
+          "path": "/tools/idea/",
+          "isDir": true,
+          "children": [
+            {
+              "name": "idea将maven的依赖自动添加到classpath中.md",
+              "path": "/tools/idea/idea将maven的依赖自动添加到classpath中.md"
+            }
+          ]
+        },
+        {
+          "name": "vim",
+          "path": "/tools/vim/",
+          "isDir": true,
+          "children": [
+            {
+              "name": "vim-backup.md",
+              "path": "/tools/vim/vim-backup.md"
+            }
+          ]
         }
       ]
     },
@@ -196,6 +308,22 @@
         {
           "name": "JVM解密-理论与实践结合-黑马程序员-V20200125-TV20200302-VIP.md",
           "path": "/resources/JVM解密-理论与实践结合-黑马程序员-V20200125-TV20200302-VIP.md"
+        },
+        {
+          "name": "java-类加载器.md",
+          "path": "/resources/java-类加载器.md"
+        },
+        {
+          "name": "classpath.md",
+          "path": "/resources/classpath.md"
+        },
+        {
+          "name": "idea-执行脚本分析-classpath-javaagent-运行结果.md",
+          "path": "/resources/idea-执行脚本分析-classpath-javaagent-运行结果.md"
+        },
+        {
+          "name": "javaagent.md",
+          "path": "/resources/javaagent.md"
         }
       ]
     },
@@ -234,6 +362,138 @@
         {
           "name": "front-end, back-end, 前端, 后端.md",
           "path": "/terms/front-end, back-end, 前端, 后端.md"
+        },
+        {
+          "name": "cases.md",
+          "path": "/terms/cases.md"
+        },
+        {
+          "name": "命名空间.md",
+          "path": "/terms/命名空间.md"
+        },
+        {
+          "name": "概念-定义-内涵-外延.md",
+          "path": "/terms/概念-定义-内涵-外延.md"
+        },
+        {
+          "name": "concept.md",
+          "path": "/terms/concept.md"
+        },
+        {
+          "name": "intensional definitions.md",
+          "path": "/terms/intensional definitions.md"
+        },
+        {
+          "name": "extensional definitions.md",
+          "path": "/terms/extensional definitions.md"
+        },
+        {
+          "name": "definition.md",
+          "path": "/terms/definition.md"
+        },
+        {
+          "name": "定义.md",
+          "path": "/terms/定义.md"
+        },
+        {
+          "name": "概念.md",
+          "path": "/terms/概念.md"
+        },
+        {
+          "name": "==.md",
+          "path": "/terms/==.md"
+        },
+        {
+          "name": "外延.md",
+          "path": "/terms/外延.md"
+        },
+        {
+          "name": "内涵.md",
+          "path": "/terms/内涵.md"
+        },
+        {
+          "name": "name space.md",
+          "path": "/terms/name space.md"
+        },
+        {
+          "name": "tag.md",
+          "path": "/terms/tag.md"
+        },
+        {
+          "name": "标签.md",
+          "path": "/terms/标签.md"
+        },
+        {
+          "name": "直观.md",
+          "path": "/terms/直观.md"
+        },
+        {
+          "name": "直觉.md",
+          "path": "/terms/直觉.md"
+        },
+        {
+          "name": "直观-直觉.md",
+          "path": "/terms/直观-直觉.md"
+        },
+        {
+          "name": "感觉.md",
+          "path": "/terms/感觉.md"
+        },
+        {
+          "name": "逻辑.md",
+          "path": "/terms/逻辑.md"
+        },
+        {
+          "name": "note-taking.md",
+          "path": "/terms/note-taking.md"
+        },
+        {
+          "name": "across   platforms.md",
+          "path": "/terms/across   platforms.md"
+        },
+        {
+          "name": "evernote.md",
+          "path": "/terms/evernote.md"
+        },
+        {
+          "name": "note-taking  vs. taking note.md",
+          "path": "/terms/note-taking  vs. taking note.md"
+        },
+        {
+          "name": "ToB.md",
+          "path": "/terms/ToB.md"
+        },
+        {
+          "name": "ToC.md",
+          "path": "/terms/ToC.md"
+        },
+        {
+          "name": "ToB  vs. ToC.md",
+          "path": "/terms/ToB  vs. ToC.md"
+        },
+        {
+          "name": "note-taking apps.md",
+          "path": "/terms/note-taking apps.md"
+        },
+        {
+          "name": "note-taking types.md",
+          "path": "/terms/note-taking types.md"
+        },
+        {
+          "name": "Non-linear note-taking.md",
+          "path": "/terms/Non-linear note-taking.md"
+        },
+        {
+          "name": "Linear note-taking.md",
+          "path": "/terms/Linear note-taking.md"
+        },
+        {
+          "name": "recipe.md",
+          "path": "/terms/recipe.md"
+        },
+        {
+          "name": "see details.md",
+          "path": "/terms/see details.md"
         }
       ]
     },
@@ -245,6 +505,40 @@
         {
           "name": "无处安放的笔记.md",
           "path": "/snippets/无处安放的笔记.md"
+        }
+      ]
+    },
+    {
+      "name": "taking notes.md",
+      "path": "/taking notes.md"
+    },
+    {
+      "name": "recipe",
+      "path": "/recipe/",
+      "isDir": true,
+      "children": [
+        {
+          "name": "饮食习惯.md",
+          "path": "/recipe/饮食习惯.md"
+        }
+      ]
+    },
+    {
+      "name": "食谱.md",
+      "path": "/食谱.md"
+    },
+    {
+      "name": "below.md",
+      "path": "/below.md"
+    },
+    {
+      "name": "english",
+      "path": "/english/",
+      "isDir": true,
+      "children": [
+        {
+          "name": "中英区别.md",
+          "path": "/english/中英区别.md"
         }
       ]
     }
